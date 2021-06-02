@@ -238,3 +238,10 @@ p{
   padding-bottom: 40px;
   padding-right: 40px;
 }
+
+.btn{
+  padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
