@@ -1,0 +1,240 @@
+.founder-img {
+  width: 296px;
+  margin-top: -2%;
+}
+.founder-heading {
+  font-family: "Orelega One", cursive;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.director-img{
+  width: 200px;
+}
+.image-popup {
+  width: 300px;
+}
+
+body {
+  font-family: "Signika", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 100px;
+}
+footer {
+  padding: 30px 0;
+}
+
+/* navbar */
+
+.bg-grey {
+  background: #292929;
+}
+.logo-footer {
+  margin-bottom: 40px;
+}
+footer {
+  color: grey;
+}
+footer p,
+a {
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+footer h6 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 40px;
+  position: relative;
+}
+footer h6:after {
+  position: absolute;
+  content: "";
+  background: grey;
+  width: 12%;
+  height: 1px;
+  left: 0;
+  bottom: -20px;
+}
+.btn-footer {
+  color: grey;
+
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 43px;
+  font-size: 13px;
+  padding: 7px 30px;
+  line-height: 47px;
+}
+.btn-footer:hover {
+  text-decoration: none;
+}
+.form-footer input[type="text"] {
+  border: none;
+  border-radius: 16px 0 0 16px;
+  outline: none;
+  padding-left: 10px;
+}
+::placeholder {
+  font-size: 10px;
+  padding-left: 10px;
+  font-style: italic;
+}
+.form-footer input[type="button"] {
+  border: none;
+  background: #232323;
+  margin-left: -5px;
+  color: #fff;
+  outline: none;
+  border-radius: 0 16px 16px 0;
+  padding: 2px 12px;
+}
+.social .fa {
+  color: grey;
+  font-size: 22px;
+  padding: 10px 15px;
+  background: #3c3c3c;
+}
+footer ul li {
+  list-style: none;
+  display: block;
+}
+footer ul {
+  padding-left: 0;
+}
+footer ul li a {
+  text-decoration: none;
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #f5f5f5 !important;
+}
+.logo-part {
+  border-right: 1px solid grey;
+  height: 100%;
+}
+
+.footer-ico {
+  font-size: 2rem;
+  color: #6c6c6c;
+  margin-right: 1%;
+}
+
+.row1{
+  flex-wrap: initial;
+}
+
+.pb-5, .py-5 {
+  padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    width: 1540px;
+}
+
+.h1{
+  color:grey;
+}
+
+.phk{
+  padding-top: 48px !important;
+    padding-bottom: 48px !important;
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1240px;
+}
+}
+
+#our_work {
+  background-color: #d3d3d326;
+}
+
+.heading-section {
+  font-size: 4rem;
+  color: #000;
+}
+
+.ftco-section{
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.footer{
+  padding: 3% 0% 7%;
+    margin-bottom: 2%;
+    margin: 2% 5%;
+  margin-bottom: 0px;
+  padding-bottom: 45.300px;
+}
+
+.team1{
+  background-color: #d3d3d326;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 1004px;
+    padding-left: 100px;
+}
+
+@media (min-width: 1200px){
+.team1{
+    max-width: 1530px;
+}
+}
+
+p{
+  font-size: 17px;
+  font-weight: 600;
+  text-align: justify;
+  color: #6a6c70;
+}
+.founder-box{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 4%;
+  max-width: 1273px ;
+}
+
+.popup{
+  width: 700px;
+  right: 56px;
+}
+
+@media (max-width:700px){
+.popup{
+  width: 100%;
+  left: .15%;           
+}
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white !important;
+  transform: rotateY(180deg);
+}
+
+.card-back-info {
+  padding: 8%;
+  font-size: 0.85rem;
+  color: white !important;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+.card-img{
+  padding-bottom: 0px;
+    padding-top: 20px;
+}
+
+.hm{
+  padding-bottom: 40px;
+  padding-right: 40px;
+}
