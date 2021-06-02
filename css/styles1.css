@@ -7,7 +7,7 @@
   text-align: center;
   margin-bottom: 35px;
 }
-.director-img{
+.director-img {
   width: 200px;
 }
 .image-popup {
@@ -125,29 +125,34 @@ a:hover {
   margin-right: 1%;
 }
 
-.row1{
+.row1 {
   flex-wrap: initial;
 }
 
-.pb-5, .py-5 {
+.pb-5,
+.py-5 {
   padding-top: 0px !important;
-    padding-bottom: 0px !important;
-    width: 1540px;
+  padding-bottom: 0px !important;
+  width: 1540px;
 }
 
-.h1{
-  color:grey;
+.h1 {
+  color: grey;
 }
 
-.phk{
+.phk {
   padding-top: 48px !important;
-    padding-bottom: 48px !important;
+  padding-bottom: 48px !important;
 }
 
-@media (min-width: 1200px){
-.container, .container-lg, .container-md, .container-sm, .container-xl {
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
     max-width: 1240px;
-}
+  }
 }
 
 #our_work {
@@ -159,57 +164,57 @@ a:hover {
   color: #000;
 }
 
-.ftco-section{
+.ftco-section {
   padding-bottom: 0px;
   padding-top: 0px;
 }
 
-.footer{
+.footer {
   padding: 3% 0% 7%;
-    margin-bottom: 2%;
-    margin: 2% 5%;
+  margin-bottom: 2%;
+  margin: 2% 5%;
   margin-bottom: 0px;
-  padding-bottom: 45.300px;
+  padding-bottom: 45.3px;
 }
 
-.team1{
+.team1 {
   background-color: #d3d3d326;
-    margin-left: 0px;
-    margin-right: 0px;
-    height: 1004px;
-    padding-left: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 1004px;
+  padding-left: 100px;
 }
 
-@media (min-width: 1200px){
-.team1{
+@media (min-width: 1200px) {
+  .team1 {
     max-width: 1530px;
-}
+  }
 }
 
-p{
+p {
   font-size: 17px;
   font-weight: 600;
   text-align: justify;
   color: #6a6c70;
 }
-.founder-box{
+.founder-box {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 5%;
   margin-bottom: 5%;
   padding: 4%;
-  max-width: 1273px ;
+  max-width: 1273px;
 }
 
-.popup{
+.popup {
   width: 700px;
   right: 56px;
 }
 
-@media (max-width:700px){
-.popup{
-  width: 100%;
-  left: .15%;           
-}
+@media (max-width: 700px) {
+  .popup {
+    width: 100%;
+    left: 0.15%;
+  }
 }
 
 .flip-card-back {
@@ -229,29 +234,30 @@ p{
   font-size: 1.2rem;
 }
 
-.card-img{
+.card-img {
   padding-bottom: 0px;
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
-.hm{
+.hm {
   padding-bottom: 40px;
   padding-right: 40px;
 }
 
-.btn{
+.btn {
   padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 16px;
-    padding-right: 16px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
- p, a {
+p,
+a {
   font-size: 1rem;
 }
 
 ::placeholder {
   font-family: "Arial", sans-serif;
   font-size: 16px;
-  }
-
+  font-style: normal;
+}
