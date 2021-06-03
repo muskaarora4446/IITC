@@ -2,6 +2,32 @@
   width: 296px;
   margin-top: -2%;
 }
+@media (max-width: 900px) {
+  .founder-img {
+    margin-left: 26%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+}
+@media (max-width: 406px) {
+  .container,
+  .container-sm {
+    max-width: 380px;
+  }
+}
+@media (max-width: 346px) {
+  .container,
+  .container-sm {
+    max-width: 300px;
+  }
+}
+
+
 .founder-heading {
   font-family: "Orelega One", cursive;
   text-align: center;
@@ -124,10 +150,10 @@ a:hover {
   color: #6c6c6c;
   margin-right: 1%;
 }
-
+/* 
 .row1 {
   flex-wrap: initial;
-}
+} */
 
 .pb-5,
 .py-5 {
@@ -179,17 +205,15 @@ a:hover {
 
 .team1 {
   background-color: #d3d3d326;
-  margin-left: 0px;
-  margin-right: 0px;
-  height: 1004px;
-  padding-left: 100px;
+  padding-left: 8%;
+  height: 100%;
 }
-
+/* 
 @media (min-width: 1200px) {
   .team1 {
     max-width: 1530px;
   }
-}
+} */
 
 p {
   font-size: 17px;
@@ -242,6 +266,7 @@ p {
 .hm {
   padding-bottom: 40px;
   padding-right: 40px;
+  margin-right: 8%;
 }
 
 .btn {
